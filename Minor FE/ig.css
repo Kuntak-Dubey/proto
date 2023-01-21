@@ -1,0 +1,96 @@
+
+/* Designing Header of the site */
+.head{
+    text-align: center;
+   background-color: rgba(0, 0, 0, 0.36);
+   border-radius: 15px;
+}
+
+.headerimg{
+    border-radius: 15px;
+    background-image: url("/images/ig_header.jpg");
+}
+
+.name{
+    color: rgb(0, 0, 0);
+    font-size: 1cm;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+.tag{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:azure
+}
+
+/*image uploading box design */
+
+.container{
+    background-image: url(/images/bubbles-1985148_1920.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* background: opacity 100px; */
+    /* background-size: 100vw; */
+    height: 60vh;
+    
+}
+
+.bgcolor{
+    background-color: rgba(0, 0, 0, 0.153);
+    border-radius: 30px;
+}
+
+.box{
+    display: flex;
+    height: 450px;
+    border: dashed 1px;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 485px;
+    border-radius: 15%;
+    margin-top: 50px;
+    background-color: rgba(128, 128, 128, 0.579);
+}
+
+/* Button design */
+
+.design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.button{
+    height: 40px;
+    width: 500px;
+    border: solid 1px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 255, 0.447);
+    cursor: pointer;
+    transition-duration: 1s;
+    font-size: larger;
+    /* font-style: bold; */
+    font-family: monospace;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 255, 0.744);
+}
+
+/* footer */
+.foot{
+    text-align: center;
+    color: black;
+    padding: 0.5em;
+    margin-top: 40px;
+    /* background-color: rgba(137, 43, 226, 0.555); */
+}
